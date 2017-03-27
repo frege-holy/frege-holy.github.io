@@ -4,5 +4,5 @@ title: Hello World!
 ---
 {% include JB/setup %}
 
-g
+
 
