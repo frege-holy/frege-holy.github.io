@@ -1,40 +1,29 @@
 #+OPTIONS: num:nil toc:nil
+#+REVEAL_EXTRA_CSS: ./mystyle.css
+#+REVEAL_SLIDE_HEADER: header test
+#+REVEAL_SLIDE_FOOTER: footer test
+#+ATTR_REVEAL: :frag (grow shrink roll-in fade-out none) :frag_idx (4 3 2 1 -)
+#+title: Test
 
-#+REVEAL_MARGIN: -1
-#+REVEAL_MIN_SCALE: -1
-#+REVEAL_MAX_SCALE: -1
-#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
-#+REVEAL_TRANS: default
-#+REVEAL_SPEED: default
-#+REVEAL_THEME: serif
-#+REVEAL_EXTRA_CSS:
-#+REVEAL_EXTRA_JS:
-#+REVEAL_HLEVEL:
-#+REVEAL_TITLE_SLIDE_BACKGROUND:
-#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE:
-#+REVEAL_TITLE_SLIDE_BACKGROUND_POSITION:
-#+REVEAL_TITLE_SLIDE_BACKGROUND_REPEAT:
-#+REVEAL_TITLE_SLIDE_BACKGROUND_TRANSITION:
-#+REVEAL_DEFAULT_SLIDE_BACKGROUND:
-#+REVEAL_DEFAULT_SLIDE_BACKGROUND_SIZE:
-#+REVEAL_DEFAULT_SLIDE_BACKGROUND_POSITION:
-#+REVEAL_DEFAULT_SLIDE_BACKGROUND_REPEAT:
-#+REVEAL_DEFAULT_SLIDE_BACKGROUND_TRANSITION:
-#+REVEAL_MATHJAX_URL: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-#+REVEAL_PREAMBLE:
-#+REVEAL_HEAD_PREAMBLE:
-#+REVEAL_POSTAMBLE:
-#+REVEAL_MULTIPLEX_ID:
-#+REVEAL_MULTIPLEX_SECRET:
-#+REVEAL_MULTIPLEX_URL:
-#+REVEAL_MULTIPLEX_SOCKETIO_URL:
-#+REVEAL_SLIDE_HEADER:
-#+REVEAL_SLIDE_FOOTER:
-#+REVEAL_PLUGINS:
-#+REVEAL_DEFAULT_FRAG_STYLE:
-#+REVEAL_INIT_SCRIPT:
-#+REVEAL_HIGHLIGHT_CSS: %r/lib/css/zenburn.css
+
+
+
 * slide 1
+dsfdsfdsf...slash\\
+dfasdfasf...backslash\\
+aadfasdfasdfafasdf\\
+sdfsdafsdfsad\\
+dsfasdfd\\
+dsafds\\
+sadfasd\\
+dsafdads\\
+adfasf\\
 * slide 2
+
+   * I will grow.
+   * I will shrink.
+   * I rolled in.
+   * I will fade out.
+   * I don't fragment.
 * slide 3
 
