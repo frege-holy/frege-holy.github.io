@@ -1,5 +1,7 @@
 #+options: toc:nil
 * Test1
+  - this is html
 [[file:lesson1.html][lesson1_slides]]
 * Test2
-[[file:lesson1_script.html][lesson1_code]]
+  - this is pdf file
+[[file:lesson1_script.pdf][lesson1_code]]
