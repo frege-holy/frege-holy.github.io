@@ -1,7 +1,7 @@
 #+options: toc:nil
-* Test1
-  - this is html
+* Lesson 1
+  - this is lecture file.
 [[file:lesson1.html][lesson1_slides]]
-* Test2
-  - this is pdf file
+
+  - this is supplements for lecture which is pdf file
 [[file:lesson1_script.pdf][lesson1_code]]
