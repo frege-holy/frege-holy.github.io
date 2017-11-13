@@ -1,0 +1,93 @@
+% Created 2017-11-13 Mon 11:45
+% Intended LaTeX compiler: xelatex
+\documentclass{oblivoir}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{ScratchX} \usepackage{tikz} \usetikzlibrary{calc}
+\author{frege holy}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={frege holy},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 25.3.1 (Org mode 9.1.2)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Event}
+\label{sec:orgd891134}
+\begin{Scratch}
+\beginbox{이벤트(Event)}
+\end{Scratch}
+
+\section{scbox}
+\label{sec:org67a593e}
+\begin{Scratch}
+\scbox{scratch box}{mvt}
+\end{Scratch}
+
+\section{turnbox}
+\label{sec:orgb5ad47c}
+\begin{Scratch}
+\turnbox{}{-145}
+\turnbox{gauche}{30}
+\turnbox{g}{30}
+\end{Scratch}
+
+\section{Loop}
+\label{sec:org3464b6d}
+\begin{Scratch}
+\boucle{repeat $x$ times}{2}{1}
+   \scbox{two blocks}{red}
+   \scbox{in the loop}{gray}
+
+
+      \boucle{forever loop}{3}{-1}
+      \scbox{this time}{pink}
+      \scbox{three blocks}{blue}
+      \scbox{in the loop}{purple}
+\end{Scratch}
+
+\section{conditional}
+\label{sec:org7d65369}
+\begin{itemize}
+\item First Example
+\end{itemize}
+\begin{Scratch}
+\boucle{if 4 > 5 then}{1}{2}
+\scbox{problem!}{app} 
+\end{Scratch}
+
+\begin{itemize}
+\item Second Example
+\end{itemize}
+\begin{Scratch}
+\sailors{if it’s an understandable example}{1}
+\scbox{then it’s all right}{app}
+\simenon{2}
+\scbox{don’t panick}{stylo}
+\scbox{see the section \emph{Examples}}{capt}
+\end{Scratch}
+
+\section{Kbox}
+\label{sec:org5e2043b}
+\begin{Scratch}
+\kbox{test kbox}
+\end{Scratch}
+
+\#+END\(_{\text{SRC}}\)
+\end{document}

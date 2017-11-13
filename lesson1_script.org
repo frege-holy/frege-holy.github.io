@@ -1,0 +1,67 @@
+#+LATEX_CLASS: oblivoir
+#+LATEX_CLASS_OPTIONS:
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{ScratchX} \usepackage{tikz} \usetikzlibrary{calc}
+#+LATEX_COMPILER: xelatex
+#+DATE: \today
+* Event
+#+BEGIN_SRC latex
+\begin{Scratch}
+\beginbox{이벤트(Event)}
+\end{Scratch}
+#+END_SRC
+* scbox
+#+BEGIN_SRC latex
+\begin{Scratch}
+\scbox{scratch box}{mvt}
+\end{Scratch}
+#+END_SRC
+* turnbox
+#+BEGIN_SRC latex
+\begin{Scratch}
+\turnbox{}{-145}
+\turnbox{gauche}{30}
+\turnbox{g}{30}
+\end{Scratch}
+#+END_SRC
+* Loop
+#+BEGIN_SRC latex
+\begin{Scratch}
+\boucle{repeat $x$ times}{2}{1}
+   \scbox{two blocks}{red}
+   \scbox{in the loop}{gray}
+
+
+      \boucle{forever loop}{3}{-1}
+      \scbox{this time}{pink}
+      \scbox{three blocks}{blue}
+      \scbox{in the loop}{purple}
+\end{Scratch}
+#+END_SRC
+* conditional
+- First Example
+#+BEGIN_SRC latex
+\begin{Scratch}
+\boucle{if 4 > 5 then}{1}{2}
+\scbox{problem!}{app} 
+\end{Scratch}
+#+END_SRC
+
+- Second Example
+#+BEGIN_SRC latex
+\begin{Scratch}
+\sailors{if it’s an understandable example}{1}
+\scbox{then it’s all right}{app}
+\simenon{2}
+\scbox{don’t panick}{stylo}
+\scbox{see the section \emph{Examples}}{capt}
+\end{Scratch}
+#+END_SRC
+* Kbox
+#+BEGIN_SRC latex
+\begin{Scratch}
+\kbox{test kbox}
+\end{Scratch}
+
+#+END_SRC
+#+END_SRC
