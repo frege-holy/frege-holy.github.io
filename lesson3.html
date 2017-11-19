@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Lesson 3</title>
+<meta name="author" content="(Hoyoul Park)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'http://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Lesson 3</h1><h2 class="author">Hoyoul Park</h2><p class="date">Created: 2017-11-20 Mon 03:22</p>
+</section>
+<section>
+<section id="slide-orgdbf70ec">
+<h2 id="orgdbf70ec">스크래치 동작 블록(상대좌표)</h2>
+<div class="outline-text-2" id="text-orgdbf70ec">
+</div>
+</section>
+<section id="slide-org8251967">
+<h3 id="org8251967">x좌표를 10만큼 바꿔 보세요.</h3>
+</section>
+<section id="slide-orgf12a043">
+<h3 id="orgf12a043">y좌표를 10만큼 바꿔 보세요.</h3>
+</section>
+<section id="slide-orgc505936">
+<h3 id="orgc505936">x좌표를 0으로 정해보세요. (절대좌표)</h3>
+</section>
+</section>
+<section>
+<section id="slide-org6f697ae">
+<h2 id="org6f697ae">스크래치 이벤트 블록</h2>
+<div class="outline-text-2" id="text-org6f697ae">
+</div>
+</section>
+<section id="slide-org84f0231">
+<h3 id="org84f0231">시작 이벤트시 message방송하기.</h3>
+</section>
+<section id="slide-orgfdec9c2">
+<h3 id="orgfdec9c2">message를 받고 10만큼 움직이기.</h3>
+</section>
+<section id="slide-org914fc46">
+<h3 id="org914fc46">"철수 방청소해야겠다" 방송하기.</h3>
+</section>
+<section id="slide-orgf3e7547">
+<h3 id="orgf3e7547">"철수 방청소해야겠다"메시지를 받으면 2초동안 말하기.</h3>
+</section>
+<section id="slide-org0f056ea">
+<h3 id="org0f056ea">오른쪽 화살표를 누르면 방송하기.</h3>
+</section>
+<section id="slide-org13f11ca">
+<h3 id="org13f11ca">방송을 받으면, 10만큼 움직이기.</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-org155c220">
+<h2 id="org155c220">만들어보기 I</h2>
+<div class="outline-text-2" id="text-org155c220">
+</div>
+</section>
+<section id="slide-orgc7d5872">
+<h3 id="orgc7d5872">오른쪽 화살표키를 누르면 방송하기.</h3>
+
+</section>
+<section id="slide-org326e997">
+<h3 id="org326e997">방송을 받으면, 스프라이트가 50만큼 x축으로 움직이기.</h3>
+
+</section>
+<section id="slide-orgfa6a30d">
+<h3 id="orgfa6a30d">왼쪽 화살표키를 누르면, 방송하기.</h3>
+
+</section>
+<section id="slide-org3fd474f">
+<h3 id="org3fd474f">방송을 받으면, 스프라이트가 -50만큼 x축으로 움직이기.</h3>
+
+</section>
+<section id="slide-org936f5e4">
+<h3 id="org936f5e4">윗쪽 화살표키를 누르면 방송하기.</h3>
+
+</section>
+<section id="slide-org2b6b582">
+<h3 id="org2b6b582">방송을 받으면, 스프라이트가 50만큼 y축으로 움직이기.</h3>
+
+</section>
+<section id="slide-org0c21998">
+<h3 id="org0c21998">아랫쪽 화살표키를 누르면 방송하기.</h3>
+
+</section>
+<section id="slide-org39e77b5">
+<h3 id="org39e77b5">방송을 받으면, 스프라이트가 -50만큼 y축으로 움직이기.</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-org67306d1">
+<h2 id="org67306d1">만들어보기 II</h2>
+<div class="outline-text-2" id="text-org67306d1">
+</div>
+</section>
+<section id="slide-org57c7069">
+<h3 id="org57c7069">스프라이트가 x축으로 50,-50으로 이동, y축으로 50,-50이동.</h3>
+
+</section>
+<section id="slide-org0667f8f">
+<h3 id="org0667f8f">스프라이트가 이동할때마다, 방송을 한다.</h3>
+
+</section>
+<section id="slide-org352063d">
+<h3 id="org352063d">방송을 받은 공은 똑같이 이동한다.</h3>
+
+</section>
+<section id="slide-orgc6a2ac5">
+<h3 id="orgc6a2ac5">애비(abby)라는 캐릭터를 추가한다.</h3>
+
+</section>
+<section id="slide-orgc80d130">
+<h3 id="orgc80d130">애비(abby)도 스프라이트의 방송을 받으면 2초동안 방향을 말하게 한다.</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-org076bc30">
+<h2 id="org076bc30">만들어보기 III</h2>
+<div class="outline-text-2" id="text-org076bc30">
+</div>
+</section>
+<section id="slide-orge5afe6d">
+<h3 id="orge5afe6d">사자와 스프라이트를 추가합니다.</h3>
+
+</section>
+<section id="slide-orga9ccf20">
+<h3 id="orga9ccf20">사자 앞에 한나(Hanna)스프라이트를 추가합니다.</h3>
+
+</section>
+<section id="slide-org217b1d8">
+<h3 id="org217b1d8">사자가 오른쪽 화살표키를 누르면, 방송하고 10만큼 움직이게 한다.</h3>
+
+</section>
+<section id="slide-org34ad728">
+<h3 id="org34ad728">방송을 받은 한나(Hanna)는 10만큼 움직인다.</h3>
+
+</section>
+<section id="slide-org8b934e1">
+<h3 id="org8b934e1">사자가 왼쪽 화살표키를 누르면, 방송하고 -10만큼 움직이게 한다.</h3>
+
+</section>
+<section id="slide-org8b2fc94">
+<h3 id="org8b2fc94">방송을 받은 한나(Hanna)는 멈춘다. 0만큼 움직인다.</h3>
+
+</section>
+<section id="slide-org43a4b92">
+<h3 id="org43a4b92">게임이 처음 시작되면, 사자와 한나(Hanna)는 "어흥","도망치자"라고 말을 한다.</h3>
+</section>
+</section>
+</div>
+</div>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

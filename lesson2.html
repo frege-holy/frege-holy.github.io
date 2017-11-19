@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Lesson 2</title>
+<meta name="author" content="(Hoyoul Park)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'http://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Lesson 2</h1><h2 class="author">Hoyoul Park</h2><p class="date">Created: 2017-11-20 Mon 03:21</p>
+</section>
+
+<section>
+<section id="slide-orgde204b7">
+<h2 id="orgde204b7">스크래치 동작 블록(좌표이동)</h2>
+<div class="outline-text-2" id="text-orgde204b7">
+</div>
+</section>
+<section id="slide-orgba8ad1a">
+<h3 id="orgba8ad1a">x-y grid 배경 설정.</h3>
+</section>
+<section id="slide-org6489991">
+<h3 id="org6489991">(0,0) 으로 이동.</h3>
+</section>
+<section id="slide-org4c7b386">
+<h3 id="org4c7b386">(200,0) 으로 이동.</h3>
+</section>
+<section id="slide-org665e04a">
+<h3 id="org665e04a">(-200,0) 으로 이동.</h3>
+</section>
+<section id="slide-org65023be">
+<h3 id="org65023be">(0,200) 으로 이동.</h3>
+</section>
+<section id="slide-org1cb7972">
+<h3 id="org1cb7972">(0,-200) 으로 이동.</h3>
+</section>
+</section>
+<section>
+<section id="slide-org88fef19">
+<h2 id="org88fef19">스크래치 동작블록(시간이동)</h2>
+<div class="outline-text-2" id="text-org88fef19">
+</div>
+</section>
+<section id="slide-org08bf870">
+<h3 id="org08bf870">1초동안 (0,0) 이동.</h3>
+</section>
+<section id="slide-orgfa4becb">
+<h3 id="orgfa4becb">1초동안 (200,0) 이동.</h3>
+</section>
+<section id="slide-org7834289">
+<h3 id="org7834289">1초동안 (-200,0) 이동.</h3>
+</section>
+<section id="slide-org855317a">
+<h3 id="org855317a">1초동안 (0,200) 이동.</h3>
+</section>
+<section id="slide-org6bf2835">
+<h3 id="org6bf2835">1초동안 (0,-200) 이동.</h3>
+</section>
+</section>
+<section>
+<section id="slide-orgfcb354a">
+<h2 id="orgfcb354a">스크래치 이벤트 블록</h2>
+<div class="outline-text-2" id="text-orgfcb354a">
+</div>
+</section>
+<section id="slide-org995030e">
+<h3 id="org995030e">스프라이트 클릭 이벤트시 (0,0)이동.</h3>
+</section>
+<section id="slide-orga2057c9">
+<h3 id="orga2057c9">스프라이트 클릭 이벤트시 1초동안 (0,0)이동.</h3>
+</section>
+</section>
+<section>
+<section id="slide-org1782a5f">
+<h2 id="org1782a5f">만들어보기</h2>
+<div class="outline-text-2" id="text-org1782a5f">
+</div>
+</section>
+<section id="slide-orgab3250a">
+<h3 id="orgab3250a">고양이 클릭시 (50,50)으로 이동.</h3>
+</section>
+<section id="slide-orga688ed0">
+<h3 id="orga688ed0">고양이 클릭시 3초동안 (150,150)으로 이동.</h3>
+</section>
+<section id="slide-org0a72817">
+<h3 id="org0a72817">space키를 눌렀을때 (0,0)으로 이동.</h3>
+</section>
+<section id="slide-orgbdda373">
+<h3 id="orgbdda373">고양이 클릭시 2초동안 (100,100)으로 이동.</h3>
+</section>
+<section id="slide-orgd25d2d8">
+<h3 id="orgd25d2d8">스테이지의 각 끝점을 통과하게 만드세요.</h3>
+</section>
+<section id="slide-org5a0db81">
+<h3 id="org5a0db81">스프라이트가 삼각형모양으로 움직이게 만드세요.</h3>
+</section>
+<section id="slide-orgbe4a376">
+<h3 id="orgbe4a376">스프라이트가 삼각형으로 움직일때 방향도 바꾸세요.</h3>
+</section>
+<section id="slide-orgff1c92a">
+<h3 id="orgff1c92a">스프라이트가 스테이지를 횡단하게 만드세요.</h3>
+</section>
+<section id="slide-orgf3bd5b9">
+<h3 id="orgf3bd5b9">스프라이트가 마우스포인터를 따라 이동하게 만드세요.</h3>
+<p>
+(시작이벤트, 무한반복하기, 마우스 포인터위치로 이동하기)
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
