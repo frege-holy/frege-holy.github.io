@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2017-11-20 Mon 03:24 -->
+<!-- 2017-11-26 Sun 18:34 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Roboprime</title>
@@ -240,24 +240,52 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgec2f302">1. S/W list 조사</a>
+<li><a href="#org0f0bee3">1. S/W list 조사</a>
 <ul>
-<li><a href="#org093740e">1.1. Scratch</a></li>
-<li><a href="#org4d2bee7">1.2. Arduino</a></li>
-<li><a href="#org5365623">1.3. AR</a></li>
+<li><a href="#org4fcb77b">1.1. Scratch</a></li>
+<li><a href="#orgae6031c">1.2. Arduino</a></li>
+<li><a href="#org816bc7e">1.3. AR</a></li>
 </ul>
 </li>
-<li><a href="#orge74f221">2. Scratch 2.0 따라하기.</a></li>
+<li><a href="#orgbb986f5">2. Scratch 2.0 따라하기.</a></li>
+<li><a href="#org35d2260">3. coding bot 설정</a>
+<ul>
+<li><a href="#orgb6b356a">3.1. device 설정</a></li>
+<li><a href="#org8e3a2f0">3.2. port 설정</a></li>
+<li><a href="#orgbc4690d">3.3. 실행</a></li>
+</ul>
+</li>
+<li><a href="#org7f2feac">4. vuforia/ios 설정</a>
+<ul>
+<li><a href="#org4c3b965">4.1. Become an iOS developer</a></li>
+<li><a href="#org77610c4">4.2. Install XCode and the iOS SDK</a></li>
+<li><a href="#orgf509f21">4.3. Set up a Provisioning Profile</a></li>
+<li><a href="#org4e10a22">4.4. vuforia sdk설치</a></li>
+<li><a href="#org1aa189b">4.5. vuforia example설치</a></li>
+<li><a href="#org83c9d47">4.6. bundle identifier설정 on xcode</a></li>
+<li><a href="#org30a9457">4.7. code signing설정</a></li>
+<li><a href="#org7545a55">4.8. build &amp; run</a></li>
+<li><a href="#org1cc2dfb">4.9. Trouble shooting</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
+<div class="warning">
+<p>
+이 page는 robo prime page로 옮겨져야 하나, Roboprime web page는 cafe24에서
+관리하고 있는데, 저장공간 부족이라는 메시지로 file생성과 directory생성이 되지
+않고 있고, 되더라도 직접 URL접근이 안되게 했기 때문에 cafe24관리자에게 요청해야
+하는 상황입니다.
+</p>
 
-<div id="outline-container-orgec2f302" class="outline-2">
-<h2 id="orgec2f302"><span class="section-number-2">1</span> S/W list 조사</h2>
+</div>
+<div id="outline-container-org0f0bee3" class="outline-2">
+<h2 id="org0f0bee3"><span class="section-number-2">1</span> S/W list 조사</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org093740e" class="outline-3">
-<h3 id="org093740e"><span class="section-number-3">1.1</span> Scratch</h3>
+<div id="outline-container-org4fcb77b" class="outline-3">
+<h3 id="org4fcb77b"><span class="section-number-3">1.1</span> Scratch</h3>
 <div class="outline-text-3" id="text-1-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -303,8 +331,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org4d2bee7" class="outline-3">
-<h3 id="org4d2bee7"><span class="section-number-3">1.2</span> Arduino</h3>
+<div id="outline-container-orgae6031c" class="outline-3">
+<h3 id="orgae6031c"><span class="section-number-3">1.2</span> Arduino</h3>
 <div class="outline-text-3" id="text-1-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -358,8 +386,8 @@ IDE라고 명시되어 있음. IDE는 말그대로, editing과 compiling을 지�
 </div>
 </div>
 
-<div id="outline-container-org5365623" class="outline-3">
-<h3 id="org5365623"><span class="section-number-3">1.3</span> AR</h3>
+<div id="outline-container-org816bc7e" class="outline-3">
+<h3 id="org816bc7e"><span class="section-number-3">1.3</span> AR</h3>
 <div class="outline-text-3" id="text-1-3">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -447,8 +475,8 @@ Samsung Galaxy S8 (SM-G950U, SM-G950N, SM-G950F, SM-G950FD, SM-G950W, SM-G950U1)
 </div>
 </div>
 
-<div id="outline-container-orge74f221" class="outline-2">
-<h2 id="orge74f221"><span class="section-number-2">2</span> Scratch 2.0 따라하기.</h2>
+<div id="outline-container-orgbb986f5" class="outline-2">
+<h2 id="orgbb986f5"><span class="section-number-2">2</span> Scratch 2.0 따라하기.</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 <a href="lesson1.html">Lesson1</a><br />
@@ -457,10 +485,180 @@ Samsung Galaxy S8 (SM-G950U, SM-G950N, SM-G950F, SM-G950FD, SM-G950W, SM-G950U1)
 </p>
 </div>
 </div>
+
+<div id="outline-container-org35d2260" class="outline-2">
+<h2 id="org35d2260"><span class="section-number-2">3</span> coding bot 설정</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orgb6b356a" class="outline-3">
+<h3 id="orgb6b356a"><span class="section-number-3">3.1</span> device 설정</h3>
+<div class="outline-text-3" id="text-3-1">
+
+<div class="figure">
+<p><img src="image/coding_config.png" alt="coding_config.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8e3a2f0" class="outline-3">
+<h3 id="org8e3a2f0"><span class="section-number-3">3.2</span> port 설정</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+arduino pro mini는 usb가 없다. 가상 usb를 위해 아래 파일을 각각의 develop
+meachine에 설치한다.
+</p>
+<ul class="org-ul">
+<li>windows: 
+<a href="file:///Users/fregeholy/Workspace/USBHelper_V3.zip">driver for windowsOS</a></li>
+<li>Mac: 
+<a href="file:///Users/fregeholy/Workspace/SiLabsUSBDriverDisk.dmg">driver for macOS</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbc4690d" class="outline-3">
+<h3 id="orgbc4690d"><span class="section-number-3">3.3</span> 실행</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+port와 device설정이 끝나고 source를 coding bot에 download해서 실행하면
+된다. downlaod명령은 coding bot이 전원이 들어온 상태에서 실행하면 된다.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7f2feac" class="outline-2">
+<h2 id="org7f2feac"><span class="section-number-2">4</span> vuforia/ios 설정</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+vuforia는 Qualcomm에서 제공하는 AR SDK의 이름이다. vuforia sdk를 다운받아서
+sample을 동작시키는것을 목표로 한다.
+</p>
+</div>
+
+
+<div id="outline-container-org4c3b965" class="outline-3">
+<h3 id="org4c3b965"><span class="section-number-3">4.1</span> Become an iOS developer</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+IOS app을 만들려면, 맥북과 등록된 apple ID가 필요하다. IOS Developer
+Program에 등록해야만 개발이 가능하다. <a href="https://developer.apple.com/programs/enroll/">여기</a>서 등록이 가능하다.
+등록화면은 다음과 같다.
+<img src="image/install1.png" alt="install1.png" />
+계속 진행을 하면 IOS developer로 등록이 된다.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org77610c4" class="outline-3">
+<h3 id="org77610c4"><span class="section-number-3">4.2</span> Install XCode and the iOS SDK</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+Xcode는 최신버전을 설치하면 된다.Xcode가 설치되면 IOS SDK는 Xcode에 포함되어
+있기 때문에 자동으로 설치된다. Xcode 다운로드는 apple사이트에서 다운받을 수
+있다.
+경로: <a href="https://developer.apple.com/download/">https://developer.apple.com/download/</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf509f21" class="outline-3">
+<h3 id="orgf509f21"><span class="section-number-3">4.3</span> Set up a Provisioning Profile</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+provision이란 단어는 미국에선 일상적으로 쓰이지만, 한국에서는 좀 낯설은
+단어다. 사전적의미는 provide나 support하는 행위를 말하지만, 등록하는 행위를
+말할때 쓰인다. 예를 들어, 회사의 infra system에 등록했을때, your ID
+provisioning했다고 말하기도 한다. 여기선 apple 개발자로 등록된 profile을
+말한다. 이 profile을 설정해야만 IOS개발이 가능하다. profile에는 다음과
+같은것이 있다.
+</p>
+<ul class="org-ul">
+<li>Obtain a certificate: 인증서를 가진자. 사용자의 Identity를 나타낸다.</li>
+<li>Assign a device: 개발할 device를 말한다.</li>
+<li>Create an App ID: 사용자.</li>
+</ul>
+<p>
+provisioning profile 설정방법은 인터넷에 많기 때문에 여기서는 이미 setup이
+되어있다고 가정한다.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4e10a22" class="outline-3">
+<h3 id="org4e10a22"><span class="section-number-3">4.4</span> vuforia sdk설치</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+vuforia sdk(
+<a href="https://developer.vuforia.com/downloads/sdk">https://developer.vuforia.com/downloads/sdk</a>)를 다운받는다.
+<img src="image/vufo_dir.png" alt="vufo_dir.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1aa189b" class="outline-3">
+<h3 id="org1aa189b"><span class="section-number-3">4.5</span> vuforia example설치</h3>
+<div class="outline-text-3" id="text-4-5">
+<p>
+vuforia에서 제공하는 sample을 (
+<a href="https://developer.vuforia.com/downloads/samples">https://developer.vuforia.com/downloads/samples</a>) 다운 받는다.
+SDK 내에 설치한다.
+설치한 후 화면은 아래와 같다.
+<img src="image/vufo_samples.png" alt="vufo_samples.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org83c9d47" class="outline-3">
+<h3 id="org83c9d47"><span class="section-number-3">4.6</span> bundle identifier설정 on xcode</h3>
+<div class="outline-text-3" id="text-4-6">
+<p>
+bundle identifier는 apple developer등록시에 설정한 값이다. Provisioning
+signing도 입력을 같이 해준다.
+<img src="image/setting1.png" alt="setting1.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org30a9457" class="outline-3">
+<h3 id="org30a9457"><span class="section-number-3">4.7</span> code signing설정</h3>
+<div class="outline-text-3" id="text-4-7">
+<p>
+vuforia code signing을 설정해야 한다.
+<img src="image/code_signing.png" alt="code_signing.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7545a55" class="outline-3">
+<h3 id="org7545a55"><span class="section-number-3">4.8</span> build &amp; run</h3>
+<div class="outline-text-3" id="text-4-8">
+<p>
+iphone을 연결한 상태에서 build와 run하면 phone에 sample이 설치된다. 설치된
+app을 테스트하는 것은 sample폴더의 /Media/ImageTarget/의 jpg를 띄운 후 확인해
+본다. <br />
+image: <a href="image/target_stones_USLetter.pdf">여기</a> <br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1cc2dfb" class="outline-3">
+<h3 id="org1cc2dfb"><span class="section-number-3">4.9</span> Trouble shooting</h3>
+<div class="outline-text-3" id="text-4-9">
+<p>
+app이 설치는 되었지만, 실행시에 오류가 날수 있다. missing key라고 시작되는
+경고 메시지를 보게 된다면, vuforia License key를 직접 입력 한다.
+vuforia License key는 vuforia webpage에서 찾을 수 있다.<br />
+<img src="image/setting_3.png" alt="setting_3.png" />
+여기서 복사한 key를 아래 소스에 추가해준다.<br />
+<img src="image/setting_2.png" alt="setting_2.png" />
+</p>
+</div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Hoyoul Park</p>
-<p class="date">Created: 2017-11-20 Mon 03:24</p>
+<p class="date">Created: 2017-11-26 Sun 18:34</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
